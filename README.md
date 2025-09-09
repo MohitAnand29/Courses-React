@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+A modern, responsive React.js application that showcases and filters online courses across various categories. Features an elegant UI with smooth animations, favorites system, and dynamic filtering.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://img.shields.io/badge/React-18.2.0-blue https://img.shields.io/badge/Tailwind-CSS-38B2AC https://img.shields.io/badge/License-MIT-green
 
-## Available Scripts
+https://via.placeholder.com/800x400/0f172a/ffffff?text=Courses-React+Demo
 
-In the project directory, you can run:
+✨ Features
+Category Filtering: Browse courses by Development, Business, Design, Lifestyle, or view All courses
 
-### `npm start`
+Favorite System: Like/unlike courses with beautiful toast notifications
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive Design: Optimized for desktop, tablet, and mobile devices
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Modern UI: Gradient designs, smooth animations, and 3D card effects
 
-### `npm test`
+Loading Animation: Custom particle-based spinner with typewriter effect
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+API Integration: Fetches real course data from external API
 
-### `npm run build`
+🛠️ Tech Stack
+Frontend Framework: React.js with Hooks
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Styling: Tailwind CSS with custom animations
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Icons: React Icons
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Notifications: React Toastify
 
-### `npm run eject`
+Build Tool: Create React App
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🚀 How to Use
+Browse Courses: View all available courses on the main page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Filter by Category: Click on category buttons (All, Development, Business, Design, Lifestyle) to filter courses
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Add to Favorites: Click the heart icon on any course card to add it to your favorites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Notifications: Receive visual feedback when adding/removing favorites
 
-## Learn More
+📁 Project Structure
+src/
+├── components/
+│   ├── Card.js          # Individual course card with like functionality
+│   ├── Cards.js         # Container for displaying course cards
+│   ├── Filter.js        # Category filter component
+│   ├── Navbar.js        # Navigation header
+│   └── Spinner.js       # Custom loading animation
+├── data.js              # API URL and filter categories
+├── App.js               # Main application component
+├── index.js             # Application entry point
+├── index.css            # Global styles and animations
+└── App.css              # Basic App styles
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🎨 UI/UX Features
+Gradient text and backgrounds with animation effects
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Smooth hover animations and transitions
 
-### Code Splitting
+3D card tilt effects on hover
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Custom scrollbar styling
 
-### Analyzing the Bundle Size
+Typewriter animation for loading text
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Floating particles in loading state
 
-### Making a Progressive Web App
+Responsive grid layout for course cards
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🔧 Customization
+Easily customize the app by:
 
-### Advanced Configuration
+Modifying the color scheme in index.css (update gradient values)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Adding new categories in data.js
 
-### Deployment
+Changing animation durations in CSS classes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Updating the API endpoint in data.js
 
-### `npm run build` fails to minify
+🌐 API Reference
+This project uses the CodeHelp API:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Endpoint: https://codehelp-apis.vercel.app/api/get-top-courses
+
+Returns: Course data categorized by Development, Business, Design, and Lifestyle
+
