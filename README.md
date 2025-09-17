@@ -74,6 +74,11 @@ Contributions are welcome! If you have suggestions for improvements, feel free t
 
 ---
 
+## 🚀 Live Demo
+
+You can view the live project here: [Courses React Live](https://course-react-mohit.netlify.app/)
+
+
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
