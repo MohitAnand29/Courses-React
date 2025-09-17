@@ -82,19 +82,25 @@ Filter courses by clicking on the category buttons (e.g., "Development", "Busine
 Favorite a course by clicking the heart icon on a course card. A success notification will appear. Clicking it again will remove it from favorites, triggering an info notification.
 
 📁 Project Structure
+
 The project follows a standard React application structure, with components organized for clarity and reusability.
 
-src/
-├── components/
-│   ├── Card.js         # Renders a single course card with like functionality.
-│   ├── Cards.js        # Renders the grid of all course cards.
-│   ├── Filter.js       # Renders the category filter buttons.
-│   ├── Navbar.js       # The main navigation bar.
-│   └── Spinner.js      # The loading animation component.
-├── App.js              # The main application component, manages state and API calls.
-├── data.js             # Contains the API URL and static filter data.
-├── index.css           # Global styles and Tailwind CSS configurations.
-└── index.js            # The entry point of the React application.
+```
+.
+└── src
+    ├── components
+    │   ├── Card.js         # Renders a single course card with like functionality.
+    │   ├── Cards.js        # Renders the grid of all course cards based on the selected category.
+    │   ├── Filter.js       # Renders the category filter buttons.
+    │   ├── Navbar.js       # The main navigation bar with the application title.
+    │   └── Spinner.js      # The loading animation component shown while fetching data.
+    │
+    ├── App.js              # The main application component; manages state and API calls.
+    ├── App.css             # Default CSS file from Create React App, with minor styles.
+    ├── data.js             # Contains the API URL and static data for filter buttons.
+    ├── index.css           # Global styles, custom animations, and Tailwind CSS configurations.
+    └── index.js            # The entry point of the React application.
+```
 
 🔮 Future Improvements
 Here are some ideas for future enhancements:
