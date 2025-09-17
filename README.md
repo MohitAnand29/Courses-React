@@ -1,137 +1,82 @@
 
-## 🎓 Top Courses Showcase
+````markdown
+# Courses React App
 
-A sleek and responsive web application built with **React** and **Tailwind CSS** that showcases a curated list of top online courses.
-
-### ✨ Features
-
-* 📚 Browse a curated list of top online courses
-* 🔎 Filter courses dynamically by category
-* ❤️ Like your favorite courses
-* 🔔 Instant visual feedback using toast notifications
-* 📱 Fully responsive design (mobile, tablet, desktop)
-
-### 🛠️ Tech Stack
-
-* **Frontend:** React, Tailwind CSS
-* **Notifications:** React-Toastify (or similar library)
-* **State Management:** React Hooks / useState
+A simple React application to manage and display courses. Built with React and designed for practice and learning modern frontend development.
 
 ---
 
-## 🚀 Installation & Setup
+## 🚀 Features
+- Add and view courses
+- Simple and clean UI
+- Built with React + JSX
+- Easy to extend and customize
 
-Follow these steps to get the project up and running on your local machine.
+---
 
-1. **Clone the repository**
+## 🛠️ Installation & Setup
 
+1. **Clone the repo**
    ```bash
    git clone https://github.com/MohitAnand29/Courses-React.git
-   ```
+````
 
-2. **Navigate to the project directory**
+2. **Navigate to the project folder**
 
    ```bash
    cd Courses-React
    ```
 
-3. **Install the necessary dependencies**
+3. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-4. **Start the development server**
+4. **Run the development server**
 
    ```bash
    npm start
    ```
 
-👉 The application will now be running at:
-[http://localhost:3000](http://localhost:3000) ✅
-
----
-
-
-## 📖 Usage Guide
-
-Once the application is running, you can:
-
-* 📚 **View All Courses**
-
-  * By default, all courses are displayed under the **"All"** category.
-
-* 🔎 **Filter Courses by Category**
-
-  * Click on the category buttons (e.g., **"Development"**, **"Business"**) at the top.
-  * The view will dynamically update to show only the courses from the selected category.
-
-* ❤️ **Favorite a Course**
-
-  * Click the **heart icon** on a course card to add it to your favorites.
-  * ✅ A **success notification** will appear.
-  * 💡 Clicking it again will remove it from favorites, triggering an **info notification**.
-
----
-
-## 📁 Project Structure
-
-The project follows a standard **React application structure**, with components organized for clarity and reusability.
-
-```bash
-.
-└── src
-    ├── components
-    │   ├── Card.js         # Renders a single course card with like functionality
-    │   ├── Cards.js        # Renders the grid of all course cards based on the selected category
-    │   ├── Filter.js       # Renders the category filter buttons
-    │   ├── Navbar.js       # Main navigation bar with the application title
-    │   └── Spinner.js      # Loading animation component shown while fetching data
-    │
-    ├── App.js              # Root application component; manages state and API calls
-    ├── App.css             # Default CSS from Create React App with minor styles
-    ├── data.js             # Contains API URL and static data for filter buttons
-    ├── index.css           # Global styles, custom animations, and Tailwind CSS config
-    └── index.js            # Entry point of the React application
-```
-
----
-
-## 🔮 Future Improvements
-
-Here are some ideas for future enhancements:
-
-* 💾 **Persistent Likes** – Use `localStorage` or a backend to make the "liked" status persist across browser sessions.
-* ⭐ **Dedicated Favorites Page** – Add a new filter category or a separate page to view all liked courses.
-* 🔍 **Search Functionality** – Implement a search bar to find courses by title or keyword.
-* ♿ **Accessibility Enhancements** – Further improve ARIA attributes and keyboard navigation.
-* 🪝 **Custom Hooks** – Refactor the API fetching logic into a custom hook (e.g., `useFetchCourses`) for cleaner code in `App.js`.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
 ## 🤝 Contribution Guidelines
 
-Contributions are always welcome! 🎉 If you have suggestions for improvements, please feel free to **open an issue** or **submit a pull request**.
+Contributions are welcome! If you have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-Steps to contribute:
-
-1. **Fork the Project**
-2. **Create your Feature Branch**
+1. Fork the project
+2. Create your feature branch
 
    ```bash
    git checkout -b feature/AmazingFeature
    ```
-3. **Commit your Changes**
+3. Commit your changes
 
    ```bash
    git commit -m 'Add some AmazingFeature'
    ```
-4. **Push to the Branch**
+4. Push to the branch
 
    ```bash
    git push origin feature/AmazingFeature
    ```
-5. **Open a Pull Request** 🚀
+5. Open a Pull Request
+
+---
+
+## 📸 Demo / Screenshot
+<img width="1920" height="1078" alt="React App - Google Chrome 9_17_2025 5_05_48 PM" src="https://github.com/user-attachments/assets/0e896083-0cc2-47be-99f1-248d67384d35" />
+
+
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
@@ -139,8 +84,8 @@ Steps to contribute:
 
 **Mohit Anand**
 
-* 🌐 GitHub: [MohitAnand29](https://github.com/MohitAnand29)
-* 💼 LinkedIn: [Mohit Anand](https://www.linkedin.com/in/mohit-anand-981a55259/)
+* GitHub: [MohitAnand29](https://github.com/MohitAnand29)
+* LinkedIn: [Mohit Anand](https://www.linkedin.com/in/mohit-anand-981a55259/)
 
----
+```
 
